@@ -1,0 +1,8 @@
+
+
+<%= render "partials/header" %>
+<%=flash[:notice] if flash[:notice] %>
+<%=flash[:alert] if flash[:alert] %>
+<!-- add alert message here -->
+<%=yield %>
+<%= render "partials/footer" %>

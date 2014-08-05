@@ -1,0 +1,11 @@
+<% @user.posts.each do |p| %>
+	<ul>
+		<li><%= p.post_title %>:<%= p.post_text %>
+		<%= link_to 'Edit', edit_user_post_path(:id => p.id) %>
+		<%= link_to 'Delete', user_post_path(:id => p.id), method: :delete %>
+		<%= time_ago_in_words(3.minutes.from_now) %>
+		</li>
+	</ul>
+	<%= link_to "Logout", session_path  %>
+<% end %>
+

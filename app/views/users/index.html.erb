@@ -1,0 +1,14 @@
+<!-- index.html.erb view -->
+	<!-- this posts each of the users first name once -->
+	<% @users.each do |u| %>
+		<%= u.fname %>
+	<% end %>
+
+	<%= form_tag("/search", method: "get") do %>
+	 <%=label_tag(:query, "Search:") %>
+	 <%=text_field_tag(:query) %>
+	 <%=submit_tag("Submit") %>
+	<% end %>
+
+	<%=yield %>
+

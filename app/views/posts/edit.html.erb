@@ -1,0 +1,7 @@
+<%= form_for p.id do |f| %> 
+ <%=f.label :post_title %>
+  <%=f.text_field :post_title %>
+   <%=f.label :post_text %>
+  <%=f.text_field :post_text %>
+ <%=f.submit :update %>
+<% end %>
