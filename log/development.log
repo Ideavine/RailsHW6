@@ -38189,3 +38189,1930 @@ ActionView::Template::Error (No route matches {:action=>"destroy", :controller=>
   Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
   Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 18:51:15 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (82.2ms)
+  Rendered partials/_header.html.erb (8.9ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 121ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 18:51:16 -0400
+
+
+Started GET "/users/new" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (21.8ms)
+  Rendered partials/_header.html.erb (4.9ms)
+  Rendered partials/_footer.html.erb (0.7ms)
+Completed 200 OK in 42ms (Views: 32.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:27 -0400
+
+
+Started GET "/index" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.8ms)
+  Rendered partials/_header.html.erb (7.6ms)
+  Rendered partials/_footer.html.erb (0.4ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:29 -0400
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (6.9ms)
+  Rendered partials/_header.html.erb (8.5ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:30 -0400
+
+
+Started GET "/index" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+  Rendered partials/_header.html.erb (6.7ms)
+  Rendered partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:08:31 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-08-05 19:08:33 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "username"=>"gdools", "password"=>"[FILTERED]"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'gdools'  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/in
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/in" for 127.0.0.1 at 2014-08-05 19:08:33 -0400
+Processing by PrivateController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 29]]
+Redirected to http://localhost:3000/users/29/posts
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/29/posts" for 127.0.0.1 at 2014-08-05 19:08:33 -0400
+Processing by PostsController#index as HTML
+  Parameters: {"user_id"=>"29"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/index.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 70ms
+
+ActionView::Template::Error (No route matches {:action=>"destroy", :controller=>"sessions", :user_id=>"29"} missing required keys: [:id]):
+     6: 		<%= time_ago_in_words(3.minutes.from_now) %>
+     7: 		</li>
+     8: 	</ul>
+     9: 	<%= link_to "Logout", session_path  %>
+    10: <% end %>
+  app/views/posts/index.html.erb:9:in `block in _app_views_posts_index_html_erb___1644412879289913860_70234757257840'
+  app/views/posts/index.html.erb:1:in `_app_views_posts_index_html_erb___1644412879289913860_70234757257840'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.1ms)
+
+
+Started GET "/users/29/posts" for 127.0.0.1 at 2014-08-05 19:24:58 -0400
+Processing by PostsController#index as HTML
+  Parameters: {"user_id"=>"29"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/index.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (No route matches {:action=>"destroy", :controller=>"sessions", :user_id=>"29"} missing required keys: [:id]):
+     6: 		<%= time_ago_in_words(3.minutes.from_now) %>
+     7: 		</li>
+     8: 	</ul>
+     9: 	<%= link_to "Logout", session_path  %>
+    10: <% end %>
+  app/views/posts/index.html.erb:9:in `block in _app_views_posts_index_html_erb___1644412879289913860_70234757257840'
+  app/views/posts/index.html.erb:1:in `_app_views_posts_index_html_erb___1644412879289913860_70234757257840'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.4ms)
+
+
+Started GET "/users/29/posts" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+Processing by PostsController#index as HTML
+  Parameters: {"user_id"=>"29"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/index.html.erb within layouts/application (45.4ms)
+  Rendered partials/_header.html.erb (4.2ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:25:53 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:25:55 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:4: syntax error, unexpected ',', expecting ')'
+...buffer.append=  form_for (user, post) do |f| @output_buffer....
+...                               ^):
+  app/views/posts/edit.html.erb:4: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:25:55 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:4: syntax error, unexpected ',', expecting ')'
+...buffer.append=  form_for (user, post) do |f| @output_buffer....
+...                               ^):
+  app/views/posts/edit.html.erb:4: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:26:25 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:4: syntax error, unexpected ',', expecting ')'
+'.freeze; form_for (user, post) do |f|  
+                         ^):
+  app/views/posts/edit.html.erb:4: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:26:59 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:4: syntax error, unexpected ',', expecting ')'
+...uffer.append=  form_for (@user, @post) do |f| @output_buffer...
+...                               ^):
+  app/views/posts/edit.html.erb:4: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:27:22 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (41.5ms)
+Completed 500 Internal Server Error in 46ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:4: syntax error, unexpected tIVAR, expecting ')'
+....append=  form_for (@user @post) do |f| @output_buffer.safe_...
+...                               ^):
+  app/views/posts/edit.html.erb:4: syntax error, unexpected tIVAR, expecting ')'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:27:59 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:28:38 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.7ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:29:08 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:29:17 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `model_name' for Post::ActiveRecord_Associations_CollectionProxy:Class):
+    1: <!-- form_tag(controller: "posts", action: "update", method: "post", class: "") -->
+    2: 
+    3: <h1>Edit Post</h1>
+    4: <%= form_for [@post] do |f| %> 
+    5:  <%=f.label :post_title %>
+    6:   <%=f.text_field :post_title %>
+    7:    <%=f.label :post_text %>
+  app/views/posts/edit.html.erb:4:in `_app_views_posts_edit_html_erb__2909330668781858536_70234760135440'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:29:42 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:4: syntax error, unexpected keyword_do_block, expecting keyword_end
+...fer.append=  form_for[@post] do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:15: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/posts/edit.html.erb:4: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/posts/edit.html.erb:15: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:30:20 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for Post::ActiveRecord_Associations_CollectionProxy:Class):
+    1: <!-- form_tag(controller: "posts", action: "update", method: "post", class: "") -->
+    2: 
+    3: <h1>Edit Post</h1>
+    4: <%= form_for(@post) do |f| %> 
+    5:  <%=f.label :post_title %>
+    6:   <%=f.text_field :post_title %>
+    7:    <%=f.label :post_text %>
+  app/views/posts/edit.html.erb:4:in `_app_views_posts_edit_html_erb__2909330668781858536_70234775995820'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:30:33 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/edit.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `edit' for #<Post::ActiveRecord_Associations_CollectionProxy:0x007fc19ba117d8>):
+    1: <!-- form_tag(controller: "posts", action: "update", method: "post", class: "") -->
+    2: 
+    3: <h1>Edit Post</h1>
+    4: <%= form_for(@post.edit) do |f| %> 
+    5:  <%=f.label :post_title %>
+    6:   <%=f.text_field :post_title %>
+    7:    <%=f.label :post_text %>
+  app/views/posts/edit.html.erb:4:in `_app_views_posts_edit_html_erb__2909330668781858536_70234758240220'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:32:13 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:32:39 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+Completed 500 Internal Server Error in 19ms
+
+NoMethodError (undefined method `edit' for #<Post::ActiveRecord_Associations_CollectionProxy:0x007fc19a9402d8>):
+  app/controllers/posts_controller.rb:77:in `edit'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:33:13 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.1ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:33:23 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:33:48 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:92: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:34:41 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.4ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:34:54 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-08-05 19:35:05 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "username"=>"gdools", "password"=>"[FILTERED]"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."username" = 'gdools'  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/in
+Completed 302 Found in 12ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/in" for 127.0.0.1 at 2014-08-05 19:35:05 -0400
+Processing by PrivateController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 29]]
+Redirected to http://localhost:3000/users/29/posts
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/29/posts" for 127.0.0.1 at 2014-08-05 19:35:05 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:90: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/users/29/posts" for 127.0.0.1 at 2014-08-05 19:35:15 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:91: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/users/29/posts" for 127.0.0.1 at 2014-08-05 19:35:25 -0400
+Processing by PostsController#index as HTML
+  Parameters: {"user_id"=>"29"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"  WHERE "posts"."user_id" = ?[0m  [["user_id", 29]]
+  Rendered posts/index.html.erb within layouts/application (5.5ms)
+  Rendered partials/_header.html.erb (4.1ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 12.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:35:25 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:35:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:35:26 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:35:28 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Post without an ID):
+  app/controllers/posts_controller.rb:76:in `edit'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:35:28 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Post without an ID):
+  app/controllers/posts_controller.rb:76:in `edit'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:36:12 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Post without an ID):
+  app/controllers/posts_controller.rb:76:in `edit'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:36:45 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 404 Not Found in 58ms
+
+ActiveRecord::RecordNotFound (Couldn't find Post without an ID):
+  app/controllers/posts_controller.rb:77:in `edit'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.7ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:39:01 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 12ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:40:12 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:40:39 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/edit.html.erb:22: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:41:24 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/edit.html.erb:22: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:42:16 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:22: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting keyword_end
+  app/views/posts/edit.html.erb:22: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:42:28 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <!-- form_tag(controller: "posts", action: "update", method: "post", class: "") -->
+    2: 
+    3: <h1>Edit Post</h1>
+    4: <%= form_for(@post) do |f| %> 
+    5:  <%=f.label :post_title %>
+    6:   <%=f.text_field :post_title %>
+    7:    <%=f.label :post_text %>
+  app/views/posts/edit.html.erb:4:in `_app_views_posts_edit_html_erb__2909330668781858536_70234759173420'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.4ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:49:50 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 13ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure
+/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/edit.html.erb:21: syntax error, unexpected keyword_ensure
+  app/views/posts/edit.html.erb:23: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.4ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:51:58 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <!-- form_tag(controller: "posts", action: "update", method: "post", class: "post.rb") -->
+    2: 
+    3: <h1>Edit Post</h1>
+    4: <%= form_for(@post) do |f| %> 
+    5:  <%=f.label :post_title %>
+    6:   <%=f.text_field :post_title %>
+    7:    <%=f.label :post_text %>
+  app/views/posts/edit.html.erb:4:in `_app_views_posts_edit_html_erb__2909330668781858536_70234776924320'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:52:55 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:93: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/posts_controller.rb:93: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:53:09 -0400
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/controllers/posts_controller.rb:94: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/posts_controller.rb:94: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (43.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.4ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:53:56 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 20ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/models/post.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+	“Nope, you need a post title.”
+	                 ^):
+  app/models/post.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/controllers/posts_controller.rb:77:in `edit'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:53:58 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/Users/VirginiaDooley/Documents/NYCDA/NYCDA-Assignments/Rails/RailsHW6/app/models/post.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+	“Nope, you need a post title.”
+	                 ^):
+  app/models/post.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/controllers/posts_controller.rb:77:in `edit'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:54:21 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 11ms
+
+ActiveRecord::RecordNotFound (Couldn't find Post without an ID):
+  app/controllers/posts_controller.rb:77:in `edit'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (57.1ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:12 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (51.6ms)
+Completed 500 Internal Server Error in 97ms
+
+ActionView::Template::Error (undefined method `post_path' for #<#<Class:0x007ff7c60b9e68>:0x007ff7c60b92b0>):
+    1: <!-- form_tag(controller: "posts", action: "update", method: "post", class: "post.rb") -->
+    2: 
+    3: <h1>Edit Post</h1>
+    4: <%= form_for(@post) do |f| %> 
+    5:  <%=f.label :post_title %>
+    6:   <%=f.text_field :post_title %>
+    7:    <%=f.label :post_text %>
+  app/views/posts/edit.html.erb:4:in `_app_views_posts_edit_html_erb___4026103474362889568_70351078256380'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.4ms)
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:36 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (31.5ms)
+  Rendered partials/_header.html.erb (115.3ms)
+  Rendered partials/_footer.html.erb (0.6ms)
+Completed 200 OK in 158ms (Views: 155.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:37 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.7ms)
+  Rendered partials/_header.html.erb (4.9ms)
+  Rendered partials/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:43 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.3ms)
+  Rendered partials/_header.html.erb (3.8ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.4ms)
+  Rendered partials/_header.html.erb (3.7ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:44 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.6ms)
+  Rendered partials/_header.html.erb (4.1ms)
+  Rendered partials/_footer.html.erb (0.2ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (2.4ms)
+  Rendered partials/_header.html.erb (9.4ms)
+  Rendered partials/_footer.html.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.5ms)
+  Rendered partials/_header.html.erb (3.9ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (1.3ms)
+  Rendered partials/_header.html.erb (3.7ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/users/29/posts/1/edit" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/edit.html.erb within layouts/application (2.0ms)
+  Rendered partials/_header.html.erb (4.9ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:55:45 -0400
+
+
+Started PATCH "/users/29/posts/1" for 127.0.0.1 at 2014-08-05 19:57:28 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "post"=>{"post_title"=>"", "post_text"=>"I really hope this works on the first try"}, "commit"=>"update", "user_id"=>"29", "id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 53ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/posts_controller.rb:82:in `update'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started PATCH "/users/29/posts/1" for 127.0.0.1 at 2014-08-05 19:59:29 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "post"=>{"post_title"=>"", "post_text"=>"I really hope this works on the first try"}, "commit"=>"update", "user_id"=>"29", "id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered posts/edit.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `post_path' for #<#<Class:0x007ff7c61fead0>:0x007ff7c61fe058>):
+    1: <!-- form_tag(controller: "posts", action: "update", method: "post", class: "post.rb") -->
+    2: 
+    3: <h1>Edit Post</h1>
+    4: <%= form_for([@user, @post] ) do |f| %> 
+    5:  <%=f.label :post_title %>
+    6:   <%=f.text_field :post_title %>
+    7:    <%=f.label :post_text %>
+  app/views/posts/edit.html.erb:4:in `_app_views_posts_edit_html_erb___4026103474362889568_70351078811200'
+  app/controllers/posts_controller.rb:86:in `update'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.1ms)
+
+
+Started PATCH "/users/29/posts/1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "post"=>{"post_title"=>"", "post_text"=>"I really hope this works on the first try"}, "commit"=>"update", "user_id"=>"29", "id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 29]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered posts/edit.html.erb within layouts/application (2.4ms)
+  Rendered partials/_header.html.erb (4.0ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 28ms (Views: 9.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 19:59:59 -0400
+
+
+Started PATCH "/users/29/posts/1" for 127.0.0.1 at 2014-08-05 20:00:21 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "post"=>{"post_title"=>"Test title", "post_text"=>"I really hope this works on the first try"}, "commit"=>"update", "user_id"=>"29", "id"=>"1"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 29]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "posts" SET "post_title" = ?, "updated_at" = ? WHERE "posts"."id" = 1[0m  [["post_title", "Test title"], ["updated_at", "2014-08-06 00:00:21.814155"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Completed 500 Internal Server Error in 11ms
+
+NameError (undefined local variable or method `posts_path' for #<PostsController:0x007ff7c6304330>):
+  app/controllers/posts_controller.rb:85:in `update'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.7ms)
+
+
+Started PATCH "/users/29/posts/1" for 127.0.0.1 at 2014-08-05 20:00:54 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "post"=>{"post_title"=>"Test title", "post_text"=>"I really hope this works on the first try"}, "commit"=>"update", "user_id"=>"29", "id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 500 Internal Server Error in 20ms
+
+NoMethodError (undefined method `posts_path' for #<PostsController:0x007ff7c60f7ab0>):
+  app/controllers/posts_controller.rb:85:in `update'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started PATCH "/users/29/posts/1" for 127.0.0.1 at 2014-08-05 20:01:50 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "post"=>{"post_title"=>"Test title", "post_text"=>"I really hope this works on the first try"}, "commit"=>"update", "user_id"=>"29", "id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 500 Internal Server Error in 20ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"posts", :format=>nil, :id=>nil, :user_id=>[#<User id: 29, first_name: "Ginnie", last_name: "Dooley", email: "vcdooley@gmail.com", password: "london", created_at: "2014-07-25 01:30:17", updated_at: "2014-07-25 01:30:17", username: "gdools">, #<Post id: 1, user_id: 29, post_title: "Test title", post_text: "I really hope this works on the first try", created_at: "2014-07-16 01:04:33", updated_at: "2014-08-06 00:00:21">]} missing required keys: [:id]):
+  app/controllers/posts_controller.rb:85:in `update'
+
+
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/VirginiaDooley/.rvm/gems/ruby-2.0.0-p481/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started PATCH "/users/29/posts/1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EHVfGNtcsiiMgdIhxo4O5+LbkcoJMMbU9sq+NF4TD1c=", "post"=>{"post_title"=>"Test title", "post_text"=>"I really hope this works on the first try"}, "commit"=>"update", "user_id"=>"29", "id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/29/posts/1
+Completed 302 Found in 17ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/users/29/posts/1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"user_id"=>"29", "id"=>"1"}
+  Rendered posts/show.html.erb within layouts/application (0.3ms)
+  Rendered partials/_header.html.erb (4.1ms)
+  Rendered partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/my_sessions.css?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/forum.css?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/topic.css?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/users.css.css?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/forum.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/my_sessions.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/topic.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:31 -0400

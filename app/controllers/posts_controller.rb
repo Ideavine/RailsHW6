@@ -74,17 +74,26 @@ class PostsController < ApplicationController
 
  	def edit
  		@user = User.find(params[:user_id])
- 		@post =  @user.posts(params[:id])
+ 		@post = Post.find(params[:id])
  	end
 
  	def update
- 		 post = Post.find(params[:post_id])
- 		if post.update(params[:post])
+ 		@post = Post.find(params[:id])
+ 		@user = User.find(params[:user_id])
+ 		if @post.update(post_params)
  			flash[:notice] = "Your post was updated"
- 			redirect_to posts_path 
+ 			redirect_to user_post_path @user, @post
  		else
- 			flash[:notice] + "There was an error updating your post. Please try again."
- 			redirect_to edit_post_path
+ 			render 'edit'
  		end
  	end
+
+	private
+	def post_params
+	  params.require(:post).permit(:post_title, :post_text)
+	end
+
 end
+
+
+
