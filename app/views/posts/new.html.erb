@@ -1,4 +1,4 @@
-
+<h1>Create Post</h1>
 <%= form_for([@user, @post], method: :post) do |f| %> 
  <%=f.label :post_title %>
   <%=f.text_field :post_title %>
@@ -6,3 +6,4 @@
   <%=f.text_field :post_text %>
  <%=f.submit :create %>
 <% end %>
+

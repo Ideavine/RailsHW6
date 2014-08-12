@@ -1,23 +1,5 @@
 class PostsController < ApplicationController
-	
-# 	def new
-# 		@post = Post.new
-# 	end
 
-# 	def show
-# 		@post = Post.all
-#  		end
-# 	end
-
-# 	def create
-# 		@post = Post.new
-#   		if @post.save
-#     	redirect_to @post, notice: "The post #{@post_title} was added to the system."
-#   		else
-#     	render action: 'new'
-#   		end
-# 	end
-# end
 
 	def index
 		# @ is an instance variable, we do this to pass it to the controller
@@ -26,14 +8,14 @@ class PostsController < ApplicationController
  			if @posts.present?
  				flash[:notice] = "Posts displayed successfully."
  			else
- 				flash[:alert] = "Sorry, there were no posts to display."
+ 				flash[:alert] = "Sorry, there were no posts to show."
  			end
- 		
-	end
+ 	end
 
 
 #/posts//:id
 	def show
+
 		# # @id = params[:id]
 		# # @post = Post.find(@post_id)
 
@@ -43,12 +25,12 @@ class PostsController < ApplicationController
 	end
 
 	def destroy
-		p = Post.find(params[:post_id])
-		if p.destroy
+		@post = Post.find(params[:id])
+		if @post.destroy
  			flash[:notice] = "Post deleted successfully."
  			redirect_to home_path
  		else
- 			flash[:alert] = "There was a problem deleting the user."
+ 			flash[:alert] = "There was a problem deleting the post. Please try again."
  			redirect_to home_path
 		end
 	end
@@ -60,15 +42,16 @@ class PostsController < ApplicationController
 	end
 
 	def create
-		@post = Post.new(params[:post])
+		@user = User.find(params[:user_id])
+		@post = @user.posts.new(params[:id])
 		if @post.save
-			 flash[:notice] = "Your post was created 
+			 flash[:notice] = "Your post #{@post_title} was created 
 			 successfully."
-			 redirect_to posts_path @post
+			 redirect_to user_post_path @post, @user
 		else
 			 flash[:alert] = "There was a problem saving your 
 			 post."
-			 redirect_to new_post_path
+			 redirect_to new_user_post_path 
 		end
  	end
 

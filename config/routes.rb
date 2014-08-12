@@ -24,7 +24,7 @@ end
  	get '/search' => "users#users"
  	get '/login' => "sessions#new"
  	get '/in' => "private#index"
- 	get '/session' => "session#destroy", as: :logout
+ 	get '/sessions' => "session#destroy", as: :logout
 
 
 

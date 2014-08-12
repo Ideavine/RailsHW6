@@ -6,10 +6,6 @@ class User < ActiveRecord::Base
 	# validates :size, inclusion: {in: [“short”, “tall”, “grande”]}
 	# validates :username, length: {minimum: 4, maximum: 30} 
 	# validates :username, numericality: true
-
-
-
-
 	has_many :posts
 	has_many :transactions
 end

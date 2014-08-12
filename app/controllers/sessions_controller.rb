@@ -16,7 +16,7 @@ class SessionsController < ApplicationController
  	
  	#route for logging out a user
 	def destroy
-		 Session.destroy(@user_session)
+		 Session.destroy(@user_id)
 		 session[:user_id] = nil
 		 flash[:notice] = "You are now logged out"
 		 redirect_to home_path

@@ -1,13 +1,14 @@
 <!-- form_tag(controller: "posts", action: "update", method: "post", class: "post.rb") -->
 
 <h1>Edit Post</h1>
-<%= form_for([@user, @post] ) do |f| %> 
+<%= form_for([@user, @post]) do |f| %> 
  <%=f.label :post_title %>
   <%=f.text_field :post_title %>
    <%=f.label :post_text %>
   <%=f.text_field :post_text %>
  <%=f.submit :update %>
   <% end %>
+
 
 <!-- #validates data -->
 <% if @post.errors.full_messages.any? %>
